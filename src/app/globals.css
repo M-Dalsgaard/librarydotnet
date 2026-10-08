@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-headerteal: #6a90a0;
+}
+
+.genre {
+  @apply h-50 w-100 flex flex-col justify-end p-3 hover:brightness-120 transition duration-500;
+}
+
+.genre-title {
+  @apply self-end font-bold text-base;
+}
+
+
+.book-title {
+  @apply m-0 text-2xl font-bold;
+}
+
+.description {
+  @apply m-0 text-base font-normal text-[#444444];
+}
+
+.backlink {
+  @apply hover:brightness-120 transition duration-300; 
+}

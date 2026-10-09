@@ -82,7 +82,7 @@ const handleSubmit = async (
             onChange={(event) =>
               setGenreId(event.target.value)
             }
-            className="border p-2"
+            className="border border-gray-400 p-2"
             required
           >
             <option value="">Choose genre</option>

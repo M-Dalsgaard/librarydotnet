@@ -12,7 +12,6 @@ const DeleteModal = ({ book, close, onDelete }: Props) => {
     <section className="fixed inset-0 z-100 flex items-center justify-center bg-black/50 p-4">
       <div className="relative bg-white p-8">
 
-        {/* Close button */}
         <button
           type="button"
           onClick={close}

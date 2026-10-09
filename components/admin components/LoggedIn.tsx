@@ -169,7 +169,7 @@ const LoggedIn = ({ initialBooks, initialGenres }: LoggedInProps) => {
       <Button
         type="button"
         onClick={() => setModalMode("add")}
-        className="flex h-11 w-full items-center justify-center bg-green-500 px-4 hover:brightness-120 hover:text-black sm:w-auto"
+        className="flex text-white h-11 w-full items-center justify-center bg-green-500 px-4 hover:brightness-120 hover:text-black hover:cursor-pointer sm:w-auto"
       >
         <SquarePlus className="size-5" />
         <span className="ml-2 sm:hidden">Add book</span>

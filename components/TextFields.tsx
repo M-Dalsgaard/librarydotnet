@@ -14,7 +14,7 @@ const TextFields = ({ label, className = "", ...props }: TextFieldProps) => {
       <input
         {...props}
 
-        className={`shadow border-gray-400 border w-full py-2 px-3 
+        className={`border-gray-400 border w-full py-2 px-3 
 
          leading-tight focus:outline-none focus:shadow-outline ${className}`}/>
         
